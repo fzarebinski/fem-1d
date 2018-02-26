@@ -9,13 +9,13 @@ Structure of this file is very quick and flexible. You can use as many layers as
 
 More informations about file you can get by analyse `Global` class.
 > NH Ta q ALPHA
->
+
 > NE L K S
->
+
 > NE L K S
->
+
 > NE L K S
->
+
 > ...
 
 Remember that the most important to `Global` class, where you can find reader for file are `NH` and `NE` arguments. `NH` should be sum of all `NE` increased by 1. If you have 11 nodes, you need 10 elements. If you declare 11 nodes and create 20 elements, software will use only 10 first elements.
@@ -25,3 +25,6 @@ Yes, it is. If you correct use this, remember that it's non-profit project to ge
 
 ## Who made this?
 All lines of codes are mine. Also `MESMath` class with gauss. Please use this as roadmap to create your app, not as your own project. I want to help you, so please be fair with me.
+
+## Do you have idea to improve this?
+Feel free to work with this, work on `dev` branch to keep correct software available for everyone.
