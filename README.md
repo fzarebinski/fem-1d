@@ -1,4 +1,7 @@
-# MES 1D
+# IMPORTANT NOTICE
+This is small project prepared to pass another semester on my University. Some mistakes can be included and some things can be done better. This code is only to give you inspiration and show you my own idea, not to use in commercial solutions.
+
+# MES 1D (FEM 1D)
 This is small C++ project to analyse final element method for 1D with different layers. I did it for my studies and share it to my mates from AGH.
 
 ## How to run?
@@ -8,15 +11,13 @@ Nice to have is Visual Studio 2017, because `.sln` file is capable with this and
 Structure of this file is very quick and flexible. You can use as many layers as you need, but you have to be careful about correct file structure. It's important to properly work and... to get good results :)
 
 More informations about file you can get by analyse `Global` class.
-> NH Ta q ALPHA
-
-> NE L K S
-
-> NE L K S
-
-> NE L K S
-
-> ...
+```
+NH Ta q ALPHA
+NE L K S
+NE L K S
+NE L K S
+...
+```
 
 Remember that the most important to `Global` class, where you can find reader for file are `NH` and `NE` arguments. `NH` should be sum of all `NE` increased by 1. If you have 11 nodes, you need 10 elements. If you declare 11 nodes and create 20 elements, software will use only 10 first elements.
 
