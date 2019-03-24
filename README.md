@@ -30,7 +30,7 @@ Software created with love to coding in Cracow.
 ## Can we talk about the implementation?
 Sure. I am open to teach you and make the code clearer, so you can reach the goal.
 
-# The MIT License (MIT)
+## Shared on The MIT License (MIT)
 Copyright © `2018` `Filip Zarębiński`
 
 Permission is hereby granted, free of charge, to any person
