@@ -1,16 +1,9 @@
-# IMPORTANT NOTICE
-This is small project prepared to pass another semester on my University. Some mistakes can be included and some things can be done better. This code is only to give you inspiration and show you my own idea, not to use in commercial solutions.
+Final Element Method 1D
+=====================
+Small C++ application created to get a credit on my university. Project has implemented final element method for 1D with different layers.
 
-# MES 1D (FEM 1D)
-This is small C++ project to analyse final element method for 1D with different layers. I did it for my studies and share it to my mates from AGH.
-
-## How to run?
-Nice to have is Visual Studio 2017, because `.sln` file is capable with this and futures versions of this IDE. Solution will generate you good structure of filters. It's really helpful to get ideas how to organise your own code.
-
-## How can I work with `data.txt` file?
-Structure of this file is very quick and flexible. You can use as many layers as you need, but you have to be careful about correct file structure. It's important to properly work and... to get good results :)
-
-More informations about file you can get by analyse `Global` class.
+## How it works?
+Since it is really small project all analytics data you can find in `data.txt` file. The file structure is:
 ```
 NH Ta q ALPHA
 NE L K S
@@ -19,13 +12,44 @@ NE L K S
 ...
 ```
 
-Remember that the most important to `Global` class, where you can find reader for file are `NH` and `NE` arguments. `NH` should be sum of all `NE` increased by 1. If you have 11 nodes, you need 10 elements. If you declare 11 nodes and create 20 elements, software will use only 10 first elements.
+You can create as many layers as you need, if you keep correct structure. Remember that number of nodes is number of all elements incremented by 1.
 
-## Is this working?
-Yes, it is. If you correct use this, remember that it's non-profit project to get credit. This isn't big software.
+Class `Global` is responsible for data analyse. Here you can find answers on all your questions.
 
-## Who made this?
-All lines of codes are mine. Also `MESMath` class with gauss. Please use this as roadmap to create your app, not as your own project. I want to help you, so please be fair with me.
+## Is it properly implementation?
+Yes, but there can be some edge cases where apllication can be crashed.
 
-## Do you have idea to improve this?
-Feel free to work with this, work on `dev` branch to keep correct software available for everyone.
+## Can I use it?
+Sure, the code is shared on MIT License. However, **I would be grateful for a star** in the project.
+
+## What has been used to created it?
+Software created with love to coding in Cracow.
+* IDE: Visual Studio 2017,
+* OS: Windows 10.
+
+## Can we talk about the implementation?
+Sure. I am open to teach you and make the code clearer, so you can reach the goal.
+
+# The MIT License (MIT)
+Copyright © `2018` `Filip Zarębiński`
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the “Software”), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
